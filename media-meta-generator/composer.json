@@ -1,0 +1,29 @@
+{
+  "name": "fourthcoastweb/media-meta-generator",
+  "description": "Immediately generates accessibility-compliant alt text, titles, and descriptions for media library images, using the latest Google Gemini Flash models.",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrew Hickman",
+      "homepage": "https://andrewhickman.me/",
+      "role": "Architect/Engineer"
+    },
+    {
+      "name": "Fourth Coast Web",
+      "homepage": "https://fourthcoastweb.com",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "composer/installers": "^1.0 || ^2.0"
+  },
+  "extra": {
+    "installer-name": "media-meta-generator"
+  },
+  "support": {
+    "issues": "https://github.com/fourthcoastweb/media-meta-generator/issues",
+    "source": "https://github.com/fourthcoastweb/media-meta-generator"
+  }
+}

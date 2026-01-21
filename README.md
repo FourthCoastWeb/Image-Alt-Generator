@@ -1,6 +1,6 @@
 # WordPress Image Metadata Generator
 
-**Automate WordPress accessibility with the power of AI. Instantly generate Answer Engine and SEO-friendly alt text, titles, and image descriptions directly in the Media Library using the latest Gemini Flash model from Google.**
+**Automate WordPress accessibility with the power of AI. Instantly generate "answer engine" and SEO-friendly alt text, titles, and image descriptions directly in the Media Library using Google's latest Gemini Flash model. A free API key is available [here](https://aistudio.google.com/app/apikey).**
 
 ### **Project Architect & Engineer:** [Andrew Hickman](https://andrewhickman.me/)
 
@@ -32,11 +32,31 @@
 
 ### Setup Steps
 
+#### Option A: Traditional Installation
+
 1.  **Download & Install:**
     - Upload the `media-meta-generator` folder to your `/wp-content/plugins/` directory.
     - Activate the plugin through the 'Plugins' menu in the WordPress admin.
 
-2.  **Configure API Key:**
+#### Option B: Composer Installation (Bedrock/Roots)
+
+1.  Add the repository to your `composer.json`:
+    ```json
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/fourthcoastweb/media-meta-generator"
+      }
+    ]
+    ```
+2.  Require the plugin:
+    ```bash
+    composer require fourthcoastweb/media-meta-generator
+    ```
+
+### Configuration
+
+1.  **Configure API Key:**
     - Navigate to **Tools > Media Metadata Generator** in your WordPress admin dashboard.
     - Paste your Google Gemini API Key into the field.
     - Click **Test Connection** to verify your key works.
@@ -61,13 +81,17 @@ Fourth Coast Web's **Media Metadata Generator** is built with modern WordPress d
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please follow standard WordPress coding conventions.
+We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
 1.  Fork the repository.
 2.  Create your feature branch (`git checkout -b feature/AwesomeFeature`).
 3.  Commit your changes (`git commit -m 'Add some AwesomeFeature'`).
 4.  Push to the branch (`git push origin feature/AwesomeFeature`).
 5.  Open a Pull Request.
+
+## 🛡️ Security
+
+If you discover a security vulnerability within this project, please consult [SECURITY.md](SECURITY.md) for our disclosure policy.
 
 ## 📄 License
 
