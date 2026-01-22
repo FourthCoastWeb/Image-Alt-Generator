@@ -45,13 +45,13 @@
     "repositories": [
       {
         "type": "vcs",
-        "url": "https://github.com/fourthcoastweb/media-meta-generator"
+        "url": "https://github.com/FourthCoastWeb/Image-Alt-Generator"
       }
     ]
     ```
 2.  Require the plugin:
     ```bash
-    composer require fourthcoastweb/media-meta-generator
+    composer require fourthcoastweb/image-alt-generator/media-meta-generator
     ```
 
 ### Configuration
