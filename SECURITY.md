@@ -2,8 +2,6 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are currently being supported with security updates.
-
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.x     | :white_check_mark: |
@@ -11,7 +9,7 @@ Use this section to tell people about which versions of your project are current
 
 ## Reporting a Vulnerability
 
-We take the security of **Image Metadata Generator** seriously. If you have discovered a security vulnerability, we kindly ask that you do **not** disclose it publicly until we have had a chance to fix it.
+Fourth Coast Web LLC takes the security of **Image Metadata Generator** seriously. If you have discovered a security vulnerability, we kindly ask that you do **not** disclose it publicly until we have had a chance to fix it.
 
 ### How to Report
 
