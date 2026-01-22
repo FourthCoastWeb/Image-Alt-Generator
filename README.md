@@ -36,7 +36,7 @@
 #### Option A: Traditional Installation
 
 1.  **Download & Install:**
-    - Upload the `media-meta-generator` folder to your `/wp-content/plugins/` directory.
+    - Upload the `Image-Alt-Generator` folder to your `/wp-content/plugins/` directory.
     - Activate the plugin through the 'Plugins' menu in the WordPress admin.
 
 #### Option B: Composer Installation (Bedrock/Roots)
@@ -52,7 +52,7 @@
     ```
 2.  Require the plugin:
     ```bash
-    composer require fourthcoastweb/image-alt-generator/media-meta-generator
+    composer require fourthcoastweb/image-alt-generator
     ```
 
 ### Configuration
