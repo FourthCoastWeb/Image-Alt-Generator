@@ -13,7 +13,11 @@
 [**Fourth Coast Web**](https://fourthcoastweb.com) brings the power of Google's [Gemini](https://deepmind.google/models/gemini/flash/) AI directly into your WordPress dashboard. Stop wasting precious time writing descriptive alternative text, titles, and descriptions for every image. With a single click, the plugin analyzes your uploaded image and automatically populates the **Alt Text**, **Title**, and **Description** fields, ensuring your site is accessible (WCAG compliant) and optimized for search as well as answer engines.
 
 ![A preview of the user interface for the Crest AI Image Alt Text Generator by Fourth Coast Web](https://fourthcoastweb.com/wp-content/uploads/2026/01/metadata-generator-fourth-coast-web-preview.webp)
-https://github.com/user-attachments/assets/ebad2510-e8d5-48e7-9d24-0adce89acdaf
+
+
+https://github.com/user-attachments/assets/d13ea54c-2c28-48b0-a495-007dc7716788
+
+
 
 
 ## ✨ Features
